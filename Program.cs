@@ -15,9 +15,22 @@ class Game
         {   
             string PlayAgain = null;
             int ComputerChoise = Random.Shared.Next(1, 4);
-            Console.WriteLine("Ваш выбор?");
-            Console.WriteLine("1.Камень 2.Ножницы 3.Бумага");
-            int Input = int.Parse(Console.ReadLine());
+            int Input;
+            while (true)
+            {
+                Console.WriteLine("Ваш выбор?");
+                Console.WriteLine("1.Камень 2.Ножницы 3.Бумага");
+                string firstinput = Console.ReadLine();
+                if (int.TryParse(firstinput, out Input))
+                {
+                    break;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            //int Input = int.Parse(Console.ReadLine());
 
             if (Input == ComputerChoise)
             {
@@ -60,7 +73,7 @@ class Game
 
                     if (PlayAgain.ToUpper() == "Д" || PlayAgain.ToUpper() == "Y")
                     {
-
+                        continue;
                     }
                     else
                     {

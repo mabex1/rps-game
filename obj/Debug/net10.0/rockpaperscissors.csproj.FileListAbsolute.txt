@@ -12,3 +12,4 @@ D:\csharp\rockpaperscissors\rockpaperscissors\obj\Debug\net10.0\refint\rockpaper
 D:\csharp\rockpaperscissors\rockpaperscissors\obj\Debug\net10.0\rockpaperscissors.pdb
 D:\csharp\rockpaperscissors\rockpaperscissors\obj\Debug\net10.0\rockpaperscissors.genruntimeconfig.cache
 D:\csharp\rockpaperscissors\rockpaperscissors\obj\Debug\net10.0\ref\rockpaperscissors.dll
+D:\csharp\rockpaperscissors\rockpaperscissors\obj\Debug\net10.0\rockpaperscissors.sourcelink.json
